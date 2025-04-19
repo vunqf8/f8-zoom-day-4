@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ceaca8;
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1;
+}
+
+.container {
+}
+
+/* CV */
+.wrapper {
+  max-width: 820px;
+  margin: 26px auto;
+  background-color: white;
+  width: 100%;
+  padding: 36px 55px;
+}
+
+.container-cv .wrapper .header {
+  text-align: center;
+  padding-bottom: 30px;
+  line-height: 1.4;
+}
+
+.container-cv .wrapper .content h2 {
+  width: 100%;
+  border-bottom: 3px solid #333;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.container-cv .wrapper .content p {
+  margin-top: 14px;
+  line-height: 1.6;
+}
+
+.container-cv .wrapper .content .content-block .heading {
+  font-weight: 800;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.container-cv .wrapper .content .content-block .heading h3 {
+  display: inline-block;
+}
+
+.container-cv .wrapper .content .content-block .heading h3 ~ h3 {
+  float: right;
+}
+
+.container-cv .wrapper .content .content-block .list ul {
+  margin-left: 24px;
+}
+
+.container-cv .wrapper .content .content-block .list ul li {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+  padding-left: 4px;
+}
+
